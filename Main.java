@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         AdressBook adressBook = new AdressBook();
 
-        Osoba osoba = new Osoba(1,"Debil","Dadziu","lubiewdupe@gej.com");
-        Kontakt kontakt = new Kontakt("2137","chujowa 123");
+        Osoba osoba = new Osoba(1,"Janusz","Bąk","januszbak123@gmail.com");
+        Kontakt kontakt = new Kontakt("123456749","Złota 123");
         adressBook.addKontakt(osoba,kontakt);
 
         Scanner scanner = new Scanner(System.in);
